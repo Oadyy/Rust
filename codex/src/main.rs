@@ -13,14 +13,15 @@ fn main() {
     // flush the buffer immediately to force correct order
     writer.flush().unwrap();
 
-    const MENU_LEN: usize = 6;
+    const MENU_LEN: usize = 7;
     let codex: [&str; MENU_LEN] = [
         "Variables & Mutability",
         "Compound Data Types",
         "Function",
         "Control Flow",
         "Ownership and Reference",
-        "Structure"
+        "Structure",
+        "Enum and Option",
     ];
     let mut index = 0;
     while index < MENU_LEN {

@@ -12,4 +12,6 @@ elif [[ "$1" == "5" ]]; then
     code ./src/references.rs
 elif [[ "$1" == "6" ]]; then
     code ./src/structure.rs
+elif [[ "$1" == "7" ]]; then
+    code ./src/enum_option.rs
 fi
