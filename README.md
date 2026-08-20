@@ -12,6 +12,14 @@ learning rust language. in this repo conclude code what rust can do relate https
 - visual studio code
 ```
 
+# Repo structure
+```
+.
+├── code_scrap (store code i will see other write)
+├── codex (basic knowledge i read from documents)
+└── projects (small project to poc)
+```
+
 <br><br/>
 run project
 
